@@ -5,7 +5,6 @@
 Our goal is to copy begian mainstream media website "La Libre".
 Picture in projet folder.
 
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
