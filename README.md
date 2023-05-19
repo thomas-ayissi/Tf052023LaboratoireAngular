@@ -4,7 +4,7 @@
 
 Our goal is to copy begian mainstream media website "La Libre"
 
-
+![Texte alternatif](/chemin/access/image.jpg "Titre de l'image").
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
