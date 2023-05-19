@@ -2,7 +2,7 @@
 
 ## About this project
 
-Our goal is to copy begian mainstream media website "La Libre"
+Our goal is to copy begian mainstream media website "La Libre".
 Picture in projet folder.
 
 
