@@ -1,5 +1,12 @@
 # Tf052023LaboratoireAngular
 
+## About this project
+
+Our goal is to copy begian mainstream media website "La Libre"
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
