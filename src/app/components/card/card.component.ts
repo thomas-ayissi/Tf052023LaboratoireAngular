@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Content} from "../../interfaces/content/content";
 
 @Component({
   selector: 'app-card',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
+
+  constructor() {
+
+  }
+
+
 
 }
