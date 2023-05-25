@@ -7,6 +7,7 @@ export interface Content {
   illustrationContentHead?: string;
   illustrationContentMain: string;
   textContentMain: string;
-  categoryArticle: string
+  categoryContent: 'text' | 'picture' | 'video' | 'sound' | 'trialOn';
+  subCategoryContent: 'newsStory' | 'otherText' | 'photograph' | 'drawingLogoIcon' | 'banner'| 'newsMovie' | 'otherMovie' | 'newsSound' | 'otherSound';
 
 }
