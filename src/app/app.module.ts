@@ -8,6 +8,7 @@ import { TextComponent } from './components/text/text.component';
 import { UserComponent } from './components/user/user.component';
 import { LoginComponent } from './components/login/login.component';
 import {HttpClientModule} from "@angular/common/http";
+import { ArticlewrittingComponent } from './components/articlewritting/articlewritting.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {HttpClientModule} from "@angular/common/http";
     CardComponent,
     TextComponent,
     UserComponent,
-    LoginComponent
+    LoginComponent,
+    ArticlewrittingComponent
   ],
   imports: [
     BrowserModule,
