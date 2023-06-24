@@ -8,7 +8,7 @@ import { TextComponent } from './components/text/text.component';
 import { UserComponent } from './components/user/user.component';
 import { LoginComponent } from './components/login/login.component';
 import {HttpClientModule} from "@angular/common/http";
-import { articlewrittingcomponent } from './components/articlewritting/articlewritting.component';
+
 
 
 @NgModule({
@@ -17,7 +17,7 @@ import { articlewrittingcomponent } from './components/articlewritting/articlewr
     TextComponent,
     UserComponent,
     LoginComponent,
-    articlewrittingcomponent
+
 
   ],
   imports: [
