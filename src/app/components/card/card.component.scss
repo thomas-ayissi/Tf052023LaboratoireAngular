@@ -1,0 +1,21 @@
+/* Styles pour PC */
+.card {
+  width: 25%;
+  /* Autres styles spécifiques aux cartes sur PC */
+}
+
+/* Styles pour tablette */
+@media (max-width: 767px) {
+  .card {
+    width: 50%;
+    /* Autres styles spécifiques aux cartes sur tablette */
+  }
+}
+
+/* Styles pour smartphone */
+@media (max-width: 479px) {
+  .card {
+    width: 100%;
+    /* Autres styles spécifiques aux cartes sur smartphone */
+  }
+}
