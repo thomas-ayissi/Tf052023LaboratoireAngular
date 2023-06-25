@@ -1,13 +1,17 @@
 <div class="card">
-  <img src="" alt="Image de la carte" class="card-image">
-  <div class="card-content">
-    <h3>Titre de la carte...</h3>
-    <p class="card-summary">Résumé du texte...</p>
-    <button class="card-button">"Lire la suite</button>
-    <p class="card-full-text">Texte complet...</p>
+  <h3 class="card_title">Titre de l'article</h3>
+  <p class="card_author">Auteur de l'article</p>
+  <p class="card_date">Date de publication</p>
+  <p class="card_reads">Nombre de lectures</p>
+  <img src="chemin_vers_image.jpg" alt="Image de l'article" class="card-image">
+  <div class="card_content">
+    <p class="card_summary">Résumé du texte...</p>
+    <button class="card_button">Lire la suite</button>
+    <p class="card_full_text">Texte complet...</p>
   </div>
 </div>
 
+<!-- -->
 
 <!-- Ce bloc de code est le bloc original et complet. Il est comenté, car il produit des erreurs
 Raisons des erreurs ::
@@ -17,10 +21,14 @@ Raisons des erreurs ::
 -->
 
 <!--div class="card">
-  <img src="chemin_vers_image.jpg" alt="Image de la carte" class="card-image">
-  <div class="card-content">
-    <p class="card-summary">Résumé du texte...</p>
-    <button class="card-button" (click)="showFullText()>"Lire la suite</button>
-    <p class="card-full-text" *ngIf="showFullTextFlag">Texte complet...</p>
+  <h3 class="card_title">Titre de l'article</h3>
+  <p class="card_author">Auteur de l'article</p>
+  <p class="card_date">Date de publication</p>
+  <p class="card_reads">Nombre de lectures</p>
+  <img src="chemin_vers_image.jpg" alt="Image de l'article" class="card-image">
+  <div class="card_content">
+    <p class="card_summary">Résumé du texte...</p>
+    <button class="card_button" (click)="showFullText()">Lire la suite</button>
+    <p class="card_full_text" *ngIf="showFullTextFlag">Texte complet...</p>
   </div>
 </div-->

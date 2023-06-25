@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
+  //card_title: string;
+//card_uthor:string;
+//card_publicationeDate: Date;
+//card_reads: number;
+//card_summary: string;
+
+
 
 }
