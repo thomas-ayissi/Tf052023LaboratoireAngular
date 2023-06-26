@@ -13,6 +13,7 @@ export class CardComponent implements OnInit {
   square_imageURL!: string;
   square_summary!: string;
   square_full_text!: string;
+  square_text-button!:string;
 
   ngOnInit(): void {
     this.square_title = 'Wim Robberecht (SGRS): «Des hackings visent des infrastructures critiques européennes»';
@@ -31,7 +32,7 @@ export class CardComponent implements OnInit {
       'Tout ce qu’on décrit sous le vocabulaire erroné de « désinformation » ou de « fake news », pour nous c’est de l’ingérence étrangère par la manipulation de l’information. ' +
       'On utilise pour cela les réseaux sociaux, qui n’existaient tout simplement pas lors de la guerre froide. Les moyens cyber rendent possible de prendre le contrôle des outils d’une firme : sabotages, espionnage et hackings. ' +
       'Il y a des hackings tous les jours. De temps en temps, on pense avoir à faire à des ransomware, mais cela peut dissimuler une tentative d’accès à des infrastructures critiques.'
-
+    this.square_text-button = 'j\'aime';
   }
 
   /*export class CardComponent {
