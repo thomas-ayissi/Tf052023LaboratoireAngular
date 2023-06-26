@@ -1,13 +1,13 @@
 <div class="card">
-  <h3 class="card_title">Titre de l'article</h3>
-  <p class="card_author">Auteur de l'article</p>
-  <p class="card_date">Date de publication</p>
-  <p class="card_reads">Nombre de lectures</p>
-  <img src="chemin_vers_image.jpg" alt="Image de l'article" class="card-image">
+  <h3 class="card_title">{{card_title}}</h3>
+  <p class="card_author">Auteur : {{card_author}}</p>
+  <p class="card_date">Date de publication : {{card_publicationDate}}</p>
+  <p class="card_reads">Nombre de lectures : {{card_reads}}</p>
+  <img src={{card_imageURL}} alt="Image de l'article" class="card-imageURL">
   <div class="card_content">
-    <p class="card_summary">Résumé du texte...</p>
+    <p class="card_summary">{{card_summary}}</p>
     <button class="card_button">Lire la suite</button>
-    <p class="card_full_text">Texte complet...</p>
+    <p class="card_full_text">{{card_full_text}}</p>
   </div>
 </div>
 
