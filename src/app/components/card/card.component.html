@@ -9,8 +9,10 @@
        <div class="pics"><img [src]="square_imageURL" [alt]="" class="imageURL article-visuals"></div>
        <div class="square_content">
          <p class="summary">{{square_summary}}</p>
-         <button (click)="onClick(); onClickReads()"  class="button">Lire la suite</button>
+         <button (click)="onClickReads()"  class="button">{{square_text_button}}</button>
+         <button (click)="onLike()"  class="button">{{square_text_like_button}}</button>
          <p class="full_text">{{square_full_text}}</p>
+
        </div>
      </div>
 
