@@ -1,15 +1,21 @@
-<div class="card">
-  <h3 class="card_title">{{card_title}}</h3>
-  <p class="card_author">Auteur : {{card_author}}</p>
-  <p class="card_date">Date de publication : {{card_publicationDate}}</p>
-  <p class="card_reads">Nombre de lectures : {{card_reads}}</p>
-  <img src={{card_imageURL}} alt="Image de l'article" class="card-imageURL">
-  <div class="card_content">
-    <p class="card_summary">{{card_summary}}</p>
-    <button class="card_button">Lire la suite</button>
-    <p class="card_full_text">{{card_full_text}}</p>
-  </div>
-</div>
+ <div class="article">
+
+   <div class="news">
+     <div class="square">
+       <h3 class="title">{{square_title}}</h3>
+       <p class="author">Auteur : {{square_author}}</p>
+       <p class="date">Date de publication : {{square_publicationDate}}</p>
+       <p class="reads">Nombre de lectures : {{square_reads}}</p>
+       <div class="pics"><img [src]="square_imageURL" [alt]="" class="imageURL article-visuals"></div>
+       <div class="square_content">
+         <p class="summary">{{square_summary}}</p>
+         <button (click)="onClick(); onClickReads()"  class="button">Lire la suite</button>
+         <p class="full_text">{{square_full_text}}</p>
+       </div>
+     </div>
+
+ </div>
+
 
 <!-- -->
 

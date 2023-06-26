@@ -6,22 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-  card_title!: string;
-  card_author!: string;
-  card_publicationDate!: Date;
-  card_reads!: number;
-  card_imageURL!: string;
-  card_summary!: string;
-  card_full_text!: string;
+  square_title!: string;
+  square_author!: string;
+  square_publicationDate!: Date;
+  square_reads!: number;
+  square_imageURL!: string;
+  square_summary!: string;
+  square_full_text!: string;
 
   ngOnInit(): void {
-    this.card_title = 'Wim Robberecht (SGRS): «Des hackings visent des infrastructures critiques européennes»';
-    this.card_author = 'Louis Colart';
-    this.card_publicationDate = new Date();
-    this.card_reads = 10;
-    this.card_imageURL = '/../assets/pictures/sgrs.jpg'
-    this.card_summary = 'Le vice-amiral Wim Robberecht a pris la tête du SGRS en août 2021 suite à la crise « Jürgen Conings ». Son service publie aujourd’hui le tout premier rapport annuel de son histoire.';
-    this.card_full_text = 'Le vice-amiral Wim Robberecht, patron du SGRS, est le premier à publier un rapport annuel déclassifié pour son service. Signe d’un besoin d’ouverture et d’affirmation de son service de renseignement dans un monde polarisé. ' +
+    this.square_title = 'Wim Robberecht (SGRS): «Des hackings visent des infrastructures critiques européennes»';
+    this.square_author = 'Louis Colart';
+    this.square_publicationDate = new Date();
+    this.square_reads = 10;
+    this.square_imageURL = '/../assets/pictures/sgrs.jpg'
+    this.square_summary = 'Le vice-amiral Wim Robberecht a pris la tête du SGRS en août 2021 suite à la crise « Jürgen Conings ». Son service publie aujourd’hui le tout premier rapport annuel de son histoire.';
+    this.square_full_text = 'Le vice-amiral Wim Robberecht, patron du SGRS, est le premier à publier un rapport annuel déclassifié pour son service. Signe d’un besoin d’ouverture et d’affirmation de son service de renseignement dans un monde polarisé. ' +
       'Il vise le doublement de ses effectifs d’ici cinq ans.\n' +
       '\n' +
       'Vous dites que le niveau de la menace de l’espionnage et de l’ingérence étrangère atteint un niveau jamais vu depuis la guerre froide. Comment ça se matérialise concrètement ?\n' +
@@ -34,6 +34,21 @@ export class CardComponent implements OnInit {
 
   }
 
-}
+  /*export class CardComponent {
+  constructor(private router: Router) {}
 
+  onClick(articleId: number) {
+    // Logique pour ouvrir la page de l'article complet
+    this.router.navigate(['/article', articleId]);
+  };*/
+
+  onClickReads() {
+    this.square_reads++;
+  }
+
+  onClick() {
+    this.onClick(/*article.id£*/);
+  }
+
+}
 
