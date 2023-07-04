@@ -4,7 +4,7 @@
      <div class="square">
        <h3 class="title">{{square_title}}</h3>
        <p class="author">Auteur : {{square_author}}</p>
-       <p class="date">Date de publication : {{square_publicationDate}}</p>
+       <p class="date">Date de publication : {{square_publicationDate | date: 'medium' }}</p>
        <p class="reads">Nombre de lectures : {{square_reads}}</p>
        <div class="pics"><img [src]="square_imageURL" [alt]="" class="imageURL article-visuals"></div>
        <div class="square_content">

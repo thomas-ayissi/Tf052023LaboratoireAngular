@@ -1,3 +1,41 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent} from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+
+  imports:[
+    BrowserModule,
+    AppRoutingModule
+  ],
+
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- DOWN OLD VERSION CODE INSIDE FILE - FUNCTIONNAL VERSION--
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,10 +64,36 @@ import { CompleteArticleComponent } from './components/complete-article/complete
     BrowserModule,
     AppRoutingModule
     /*HttpClientModule*/
-  ],
+/* ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 
+*/
 
+
+/*
+--DOWN FUNCTIONAL CODE VERSION FUNCTIONNAL ONE--
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { Component} from './app.component';
+
+@NgModule({
+  declarations: [
+    Component
+  ],
+
+  imports:[
+    BrowserModule,
+    AppRoutingModule
+  ],
+
+  providers: [],
+  bootstrap: [Component]
+})
+export class AppModule {}
+
+ */
