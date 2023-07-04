@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent} from './app.component';
+import {CardComponent} from "./components/card/card.component";
+import localeFr from '@angular/common/locales/fr-BE';
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData ( localeFr , 'fr-FR');
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent
+  ],
+
+  exports:[
+    BrowserModule,
+    AppRoutingModule
   ],
 
   imports:[
@@ -14,7 +26,7 @@ import { AppComponent} from './app.component';
     AppRoutingModule
   ],
 
-  providers: [],
+  providers: [{provide: LOCALE_ID, useValue: 'fr-FR'}],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

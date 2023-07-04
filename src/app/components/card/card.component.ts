@@ -1,20 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss']
 })
-export class CardComponent implements OnInit {
-  square_title!: string;
-  square_author!: string;
-  square_publicationDate!: Date;
-  square_reads!: number;
-  square_imageURL!: string;
-  square_summary!: string;
-  square_text_button!: string;
-  square_text_like_button!: string;
-  square_full_text!: string;
+export class CardComponent  {
+
+  /*public export class CardComponent  {*/
+  public square_title!: string;
+  public square_author!: string;
+  public square_publicationDate!: Date;
+  public square_reads!: number;
+  public square_imageURL!: string;
+  public square_summary!: string;
+  public square_text_button!: string;
+  public square_text_like_button!: string;
+  public square_full_text!: string;
 
 
   ngOnInit(): void {
@@ -47,7 +49,7 @@ export class CardComponent implements OnInit {
     this.router.navigate(['/article', articleId]);
   };*/
 
-  onLike () {
+  onLike() {
     if (this.square_text_like_button === 'J\'aime') {
       this.square_text_like_button = 'Je n\'aime plus'
     } else {
@@ -56,8 +58,7 @@ export class CardComponent implements OnInit {
 
   }
 
-  onClickReads ()
-  {
+  onClickReads() {
     if (this.square_text_button === 'Lire la suite') {
       this.square_reads++;
       this.square_text_button = 'Relire la suite ?';
