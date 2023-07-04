@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,16 +8,15 @@ import {Component} from '@angular/core';
 })
 export class CardComponent  {
 
-  /*public export class CardComponent  {*/
-  public square_title!: string;
-  public square_author!: string;
-  public square_publicationDate!: Date;
-  public square_reads!: number;
-  public square_imageURL!: string;
-  public square_summary!: string;
-  public square_text_button!: string;
-  public square_text_like_button!: string;
-  public square_full_text!: string;
+ square_title!: string;
+ square_author!: string;
+ square_publicationDate!: Date;
+ square_reads!: number;
+ square_imageURL!: string;
+ square_summary!: string;
+ square_text_button!: string;
+ square_text_like_button!: string;
+ square_full_text!: string;
 
 
   ngOnInit(): void {
@@ -41,13 +41,7 @@ export class CardComponent  {
 
   }
 
-  /*export class CardComponent {
-  constructor(private router: Router) {}
 
-  onClick(articleId: number) {
-    // Logique pour ouvrir la page de l'article complet
-    this.router.navigate(['/article', articleId]);
-  };*/
 
   onLike() {
     if (this.square_text_like_button === 'J\'aime') {
@@ -68,4 +62,13 @@ export class CardComponent  {
     }
   }
 
+  /*export class CardComponent {
+constructor(private router: Router) {}
+
+onClick(articleId: number) {
+  // Logique pour ouvrir la page de l'article complet
+  this.router.navigate(['/article', articleId]);
+};*/
+
+  protected readonly Date = Date;
 }
