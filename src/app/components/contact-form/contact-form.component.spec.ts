@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompleteArticleComponent } from './complete-article.component';
+import { ContactFormComponent } from './contact-form.component';
 
 describe('ArticleCompletComponent', () => {
-  let component: CompleteArticleComponent;
-  let fixture: ComponentFixture<CompleteArticleComponent>;
+  let component: ContactFormComponent;
+  let fixture: ComponentFixture<ContactFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CompleteArticleComponent ]
+      declarations: [ ContactFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CompleteArticleComponent);
+    fixture = TestBed.createComponent(ContactFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
