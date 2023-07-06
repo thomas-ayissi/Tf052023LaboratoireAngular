@@ -26,4 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-##Just Add this line to get some changes and be able to commit
+## Just Add this line to get some changes and be able to commit
+## Folders are in correct position - Git Folder also - Angular is working - Lets Save
