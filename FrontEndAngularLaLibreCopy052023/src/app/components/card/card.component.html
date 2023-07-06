@@ -1,0 +1,43 @@
+ <div class="article">
+
+   <div class="news">
+     <div class="square">
+       <h3 class="title">{{square_title}}</h3>
+       <p class="author">Auteur : {{square_author}}</p>
+       <p class="date">Date de publication : {{square_publicationDate | date: "MM/dd/yyy" }}</p>
+       <p class="reads">Nombre de lectures : {{square_reads}}</p>
+       <div class="pics"><img [src]="square_imageURL" [alt]="" class="imageURL article-visuals"></div>
+       <div class="square_content">
+         <p class="summary">{{square_summary}}</p>
+         <button (click)="onClickReads()"  class="button">{{square_text_button}}</button>
+         <button (click)="onLike()"  class="button">{{square_text_like_button}}</button>
+         <p class="full_text">{{square_full_text}}</p>
+
+       </div>
+     </div>
+
+ </div>
+
+
+<!-- -->
+
+<!-- Ce bloc de code est le bloc original et complet. Il est comenté, car il produit des erreurs
+Raisons des erreurs ::
+1/ Error: src/app/components/card/card.component.html:5:42 - error TS2339: Property 'showFullText' does not exist on type 'CardComponent'.
+
+2/ Error: src/app/components/card/card.component.html:6:38 - error TS2339: Property 'showFullTextFlag' does not exist on type 'CardComponent'.
+-->
+
+<!--div class="card">
+  <h3 class="card_title">Titre de l'article</h3>
+  <p class="card_author">Auteur de l'article</p>
+  <p class="card_date">Date de publication</p>
+  <p class="card_reads">Nombre de lectures</p>
+  <img src="chemin_vers_image.jpg" alt="Image de l'article" class="card-image">
+  <div class="card_content">
+    <p class="card_summary">Résumé du texte...</p>
+    <button class="card_button" (click)="showFullText()">Lire la suite</button>
+    <p class="card_full_text" *ngIf="showFullTextFlag">Texte complet...</p>
+  </div>
+   </div>
+</div-->
