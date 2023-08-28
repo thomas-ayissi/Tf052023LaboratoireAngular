@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thomasayissi/Documents/Tf052023LaboratoireAngular/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj": {}
+    "/Users/thomasayissi/Documents/TF2023FinalLaboLaLibreCopy/WebAppLaLibreCopyDotNetCore7WebAPI/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj": {}
   },
   "projects": {
-    "/Users/thomasayissi/Documents/Tf052023LaboratoireAngular/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj": {
+    "/Users/thomasayissi/Documents/TF2023FinalLaboLaLibreCopy/WebAppLaLibreCopyDotNetCore7WebAPI/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thomasayissi/Documents/Tf052023LaboratoireAngular/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj",
+        "projectUniqueName": "/Users/thomasayissi/Documents/TF2023FinalLaboLaLibreCopy/WebAppLaLibreCopyDotNetCore7WebAPI/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj",
         "projectName": "ClassLibraryLaLibreCopy",
-        "projectPath": "/Users/thomasayissi/Documents/Tf052023LaboratoireAngular/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj",
+        "projectPath": "/Users/thomasayissi/Documents/TF2023FinalLaboLaLibreCopy/WebAppLaLibreCopyDotNetCore7WebAPI/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy.csproj",
         "packagesPath": "/Users/thomasayissi/.nuget/packages/",
-        "outputPath": "/Users/thomasayissi/Documents/Tf052023LaboratoireAngular/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/obj/",
+        "outputPath": "/Users/thomasayissi/Documents/TF2023FinalLaboLaLibreCopy/WebAppLaLibreCopyDotNetCore7WebAPI/ClassLibraryLaLibreCopy/ClassLibraryLaLibreCopy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thomasayissi/.nuget/NuGet/NuGet.Config"
